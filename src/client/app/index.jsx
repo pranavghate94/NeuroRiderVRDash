@@ -1,8 +1,9 @@
 import React from 'react';
 import {render} from 'react-dom';
 import AwesomeComponent from './AwesomeComponent.jsx';
+import KonvaApp from './Konva.jsx';
 
-console.log("Hello!");
+//console.log("Hello!");
 
 class App extends React.Component{
     render(){
@@ -16,3 +17,4 @@ class App extends React.Component{
 }
 
 render(<App/>, document.getElementById('app'));
+render(<KonvaApp/>,document.getElementById('container'));
