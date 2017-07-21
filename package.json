@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev":"webpack -d --watch",
-    "build":"wabpack -p"
+    "dev": "webpack -d --watch",
+    "build": "wabpack -p"
   },
   "author": "Pranav Ghate",
   "license": "ISC",
@@ -15,6 +15,7 @@
     "babel-loader": "^7.1.1",
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-react": "^6.24.1",
+    "konva": "^1.6.3",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
     "webpack": "^3.3.0"
